@@ -273,7 +273,24 @@ def write_xml():
         <track>{''.join(v2)}
         </track>
       </video>
-      <audio><track></track></audio>
+      <audio>
+        <numOutputChannels>2</numOutputChannels>
+        <format><samplecharacteristics><depth>16</depth><samplerate>48000</samplerate></samplecharacteristics></format>
+        <track>
+          <clipitem id="bgm-1">
+            <name>bgm.wav</name><enabled>TRUE</enabled><duration>{TOTAL}</duration>
+            <rate><timebase>{FPS}</timebase><ntsc>FALSE</ntsc></rate>
+            <start>0</start><end>{TOTAL}</end><in>0</in><out>{TOTAL}</out>
+            <file id="fbgm"><name>bgm.wav</name><pathurl>media/bgm.wav</pathurl>
+              <rate><timebase>{FPS}</timebase><ntsc>FALSE</ntsc></rate>
+              <duration>{TOTAL}</duration>
+              <media><audio><samplecharacteristics><depth>16</depth><samplerate>48000</samplerate></samplecharacteristics>
+                <channelcount>2</channelcount></audio></media>
+            </file>
+            <sourcetrack><mediatype>audio</mediatype><trackindex>1</trackindex></sourcetrack>
+          </clipitem>
+        </track>
+      </audio>
     </media>
   </sequence>
 </xmeml>

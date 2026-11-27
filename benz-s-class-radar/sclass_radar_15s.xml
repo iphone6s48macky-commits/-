@@ -277,7 +277,24 @@
           </clipitem>
         </track>
       </video>
-      <audio><track></track></audio>
+      <audio>
+        <numOutputChannels>2</numOutputChannels>
+        <format><samplecharacteristics><depth>16</depth><samplerate>48000</samplerate></samplecharacteristics></format>
+        <track>
+          <clipitem id="bgm-1">
+            <name>bgm.wav</name><enabled>TRUE</enabled><duration>450</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>0</start><end>450</end><in>0</in><out>450</out>
+            <file id="fbgm"><name>bgm.wav</name><pathurl>media/bgm.wav</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <duration>450</duration>
+              <media><audio><samplecharacteristics><depth>16</depth><samplerate>48000</samplerate></samplecharacteristics>
+                <channelcount>2</channelcount></audio></media>
+            </file>
+            <sourcetrack><mediatype>audio</mediatype><trackindex>1</trackindex></sourcetrack>
+          </clipitem>
+        </track>
+      </audio>
     </media>
   </sequence>
 </xmeml>

@@ -16,11 +16,13 @@
 ※ IMG_8535 右下の車台番号ラベルはぼかし済み。
 
 ## ファイル
-- `preview.mp4` … 完成版（そのまま投稿可、BGMなし）
+- `preview.mp4` … 完成版（BGM入り・そのまま投稿可）
+- `media/bgm.wav` … オリジナルBGM（120BPM、カット点に効果音、12秒で決めのヒット）
 - `sclass_radar_15s.xml` … Premiere Pro 用シーケンス
 - `media/plate_*.png` … V1 写真（9:16 切り抜き済み）
 - `media/telop_*.png` … V2 テロップ（透過PNG）
-- `build.py` … 再生成スクリプト
+- `build.py` … 映像の再生成スクリプト
+- `bgm.py` … BGM の再生成スクリプト（`python3 bgm.py`）
 
 ## Premiere Pro での開き方
 1. `benz-s-class-radar` フォルダごと PC に保存
@@ -29,7 +31,8 @@
 4. シーケンス「Sクラス_レーダー探知機取付_15s」を開く
    - V1：写真（スケール 100→110% のキーフレームでズーム、カット間はクロスディゾルブ 8f）
    - V2：テロップ（不透明度 0→100% で 8f フェードイン）
-5. A1 に BGM を置いて書き出し（H.264 / 1080×1920 / 30fps）
+   - A1：BGM（`media/bgm.wav`）
+5. 書き出し（H.264 / 1080×1920 / 30fps、ラウドネスは -14 LUFS 目安）
 
 テロップ文言を変えたいときは `build.py` の `lines` を書き換えて
 `python3 build.py <写真フォルダ> <Noto Sans JP フォントフォルダ>` で再生成。
