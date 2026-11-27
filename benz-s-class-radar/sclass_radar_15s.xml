@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+<xmeml version="4">
+  <sequence id="seq-1">
+    <name>Sクラス_レーダー探知機取付_15s</name>
+    <duration>450</duration>
+    <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+    <media>
+      <video>
+        <format><samplecharacteristics>
+          <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+          <width>1080</width><height>1920</height>
+          <pixelaspectratio>square</pixelaspectratio><fielddominance>none</fielddominance>
+        </samplecharacteristics></format>
+        <track>
+          <clipitem id="plate-1">
+            <name>plate_01_IMG_8532.png</name><enabled>TRUE</enabled><duration>75</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>0</start><end>75</end><in>0</in><out>75</out>
+            <file id="fp1"><name>plate_01_IMG_8532.png</name><pathurl>media/plate_01_IMG_8532.png</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Basic Motion</name><effectid>basic</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>scale</parameterid><name>Scale</name><valuemin>0</valuemin><valuemax>1000</valuemax>
+                <value>100.0</value>
+                <keyframe><when>0</when><value>100.0</value></keyframe>
+                <keyframe><when>75</when><value>110.0</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <transitionitem>
+            <start>71</start><end>79</end><alignment>center</alignment>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <effect><name>Cross Dissolve</name><effectid>Cross Dissolve</effectid>
+              <effectcategory>Dissolve</effectcategory><effecttype>transition</effecttype><mediatype>video</mediatype></effect>
+          </transitionitem>
+          <clipitem id="plate-2">
+            <name>plate_02_IMG_8537.png</name><enabled>TRUE</enabled><duration>60</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>75</start><end>135</end><in>0</in><out>60</out>
+            <file id="fp2"><name>plate_02_IMG_8537.png</name><pathurl>media/plate_02_IMG_8537.png</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Basic Motion</name><effectid>basic</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>scale</parameterid><name>Scale</name><valuemin>0</valuemin><valuemax>1000</valuemax>
+                <value>108.0</value>
+                <keyframe><when>0</when><value>108.0</value></keyframe>
+                <keyframe><when>60</when><value>100.0</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <transitionitem>
+            <start>131</start><end>139</end><alignment>center</alignment>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <effect><name>Cross Dissolve</name><effectid>Cross Dissolve</effectid>
+              <effectcategory>Dissolve</effectcategory><effecttype>transition</effecttype><mediatype>video</mediatype></effect>
+          </transitionitem>
+          <clipitem id="plate-3">
+            <name>plate_03_IMG_8535.png</name><enabled>TRUE</enabled><duration>60</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>135</start><end>195</end><in>0</in><out>60</out>
+            <file id="fp3"><name>plate_03_IMG_8535.png</name><pathurl>media/plate_03_IMG_8535.png</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Basic Motion</name><effectid>basic</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>scale</parameterid><name>Scale</name><valuemin>0</valuemin><valuemax>1000</valuemax>
+                <value>100.0</value>
+                <keyframe><when>0</when><value>100.0</value></keyframe>
+                <keyframe><when>60</when><value>108.0</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <transitionitem>
+            <start>191</start><end>199</end><alignment>center</alignment>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <effect><name>Cross Dissolve</name><effectid>Cross Dissolve</effectid>
+              <effectcategory>Dissolve</effectcategory><effecttype>transition</effecttype><mediatype>video</mediatype></effect>
+          </transitionitem>
+          <clipitem id="plate-4">
+            <name>plate_04_IMG_8533.png</name><enabled>TRUE</enabled><duration>60</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>195</start><end>255</end><in>0</in><out>60</out>
+            <file id="fp4"><name>plate_04_IMG_8533.png</name><pathurl>media/plate_04_IMG_8533.png</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Basic Motion</name><effectid>basic</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>scale</parameterid><name>Scale</name><valuemin>0</valuemin><valuemax>1000</valuemax>
+                <value>100.0</value>
+                <keyframe><when>0</when><value>100.0</value></keyframe>
+                <keyframe><when>60</when><value>108.0</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <transitionitem>
+            <start>251</start><end>259</end><alignment>center</alignment>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <effect><name>Cross Dissolve</name><effectid>Cross Dissolve</effectid>
+              <effectcategory>Dissolve</effectcategory><effecttype>transition</effecttype><mediatype>video</mediatype></effect>
+          </transitionitem>
+          <clipitem id="plate-5">
+            <name>plate_05_IMG_8534.png</name><enabled>TRUE</enabled><duration>60</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>255</start><end>315</end><in>0</in><out>60</out>
+            <file id="fp5"><name>plate_05_IMG_8534.png</name><pathurl>media/plate_05_IMG_8534.png</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Basic Motion</name><effectid>basic</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>scale</parameterid><name>Scale</name><valuemin>0</valuemin><valuemax>1000</valuemax>
+                <value>108.0</value>
+                <keyframe><when>0</when><value>108.0</value></keyframe>
+                <keyframe><when>60</when><value>100.0</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <transitionitem>
+            <start>311</start><end>319</end><alignment>center</alignment>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <effect><name>Cross Dissolve</name><effectid>Cross Dissolve</effectid>
+              <effectcategory>Dissolve</effectcategory><effecttype>transition</effecttype><mediatype>video</mediatype></effect>
+          </transitionitem>
+          <clipitem id="plate-6">
+            <name>plate_06_IMG_8536.png</name><enabled>TRUE</enabled><duration>45</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>315</start><end>360</end><in>0</in><out>45</out>
+            <file id="fp6"><name>plate_06_IMG_8536.png</name><pathurl>media/plate_06_IMG_8536.png</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Basic Motion</name><effectid>basic</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>scale</parameterid><name>Scale</name><valuemin>0</valuemin><valuemax>1000</valuemax>
+                <value>100.0</value>
+                <keyframe><when>0</when><value>100.0</value></keyframe>
+                <keyframe><when>45</when><value>108.0</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <transitionitem>
+            <start>356</start><end>364</end><alignment>center</alignment>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <effect><name>Cross Dissolve</name><effectid>Cross Dissolve</effectid>
+              <effectcategory>Dissolve</effectcategory><effecttype>transition</effecttype><mediatype>video</mediatype></effect>
+          </transitionitem>
+          <clipitem id="plate-7">
+            <name>plate_07_IMG_8538.png</name><enabled>TRUE</enabled><duration>90</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>360</start><end>450</end><in>0</in><out>90</out>
+            <file id="fp7"><name>plate_07_IMG_8538.png</name><pathurl>media/plate_07_IMG_8538.png</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Basic Motion</name><effectid>basic</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>scale</parameterid><name>Scale</name><valuemin>0</valuemin><valuemax>1000</valuemax>
+                <value>100.0</value>
+                <keyframe><when>0</when><value>100.0</value></keyframe>
+                <keyframe><when>90</when><value>112.0</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+        </track>
+        <track>
+          <clipitem id="telop-1">
+            <name>telop_01.png</name><enabled>TRUE</enabled><duration>71</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>4</start><end>75</end><in>0</in><out>71</out>
+            <file id="ft1"><name>telop_01.png</name><pathurl>media/telop_01.png</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Opacity</name><effectid>opacity</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>opacity</parameterid><name>Opacity</name><valuemin>0</valuemin><valuemax>100</valuemax>
+                <value>100</value>
+                <keyframe><when>0</when><value>0</value></keyframe>
+                <keyframe><when>8</when><value>100</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <clipitem id="telop-2">
+            <name>telop_02.png</name><enabled>TRUE</enabled><duration>56</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>79</start><end>135</end><in>0</in><out>56</out>
+            <file id="ft2"><name>telop_02.png</name><pathurl>media/telop_02.png</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Opacity</name><effectid>opacity</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>opacity</parameterid><name>Opacity</name><valuemin>0</valuemin><valuemax>100</valuemax>
+                <value>100</value>
+                <keyframe><when>0</when><value>0</value></keyframe>
+                <keyframe><when>8</when><value>100</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <clipitem id="telop-3">
+            <name>telop_03.png</name><enabled>TRUE</enabled><duration>56</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>139</start><end>195</end><in>0</in><out>56</out>
+            <file id="ft3"><name>telop_03.png</name><pathurl>media/telop_03.png</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Opacity</name><effectid>opacity</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>opacity</parameterid><name>Opacity</name><valuemin>0</valuemin><valuemax>100</valuemax>
+                <value>100</value>
+                <keyframe><when>0</when><value>0</value></keyframe>
+                <keyframe><when>8</when><value>100</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <clipitem id="telop-4">
+            <name>telop_04.png</name><enabled>TRUE</enabled><duration>56</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>199</start><end>255</end><in>0</in><out>56</out>
+            <file id="ft4"><name>telop_04.png</name><pathurl>media/telop_04.png</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Opacity</name><effectid>opacity</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>opacity</parameterid><name>Opacity</name><valuemin>0</valuemin><valuemax>100</valuemax>
+                <value>100</value>
+                <keyframe><when>0</when><value>0</value></keyframe>
+                <keyframe><when>8</when><value>100</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <clipitem id="telop-5">
+            <name>telop_05.png</name><enabled>TRUE</enabled><duration>56</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>259</start><end>315</end><in>0</in><out>56</out>
+            <file id="ft5"><name>telop_05.png</name><pathurl>media/telop_05.png</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Opacity</name><effectid>opacity</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>opacity</parameterid><name>Opacity</name><valuemin>0</valuemin><valuemax>100</valuemax>
+                <value>100</value>
+                <keyframe><when>0</when><value>0</value></keyframe>
+                <keyframe><when>8</when><value>100</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <clipitem id="telop-6">
+            <name>telop_06.png</name><enabled>TRUE</enabled><duration>41</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>319</start><end>360</end><in>0</in><out>41</out>
+            <file id="ft6"><name>telop_06.png</name><pathurl>media/telop_06.png</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Opacity</name><effectid>opacity</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>opacity</parameterid><name>Opacity</name><valuemin>0</valuemin><valuemax>100</valuemax>
+                <value>100</value>
+                <keyframe><when>0</when><value>0</value></keyframe>
+                <keyframe><when>8</when><value>100</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <clipitem id="telop-7">
+            <name>telop_07.png</name><enabled>TRUE</enabled><duration>78</duration>
+            <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>372</start><end>450</end><in>0</in><out>78</out>
+            <file id="ft7"><name>telop_07.png</name><pathurl>media/telop_07.png</pathurl>
+              <rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Opacity</name><effectid>opacity</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>opacity</parameterid><name>Opacity</name><valuemin>0</valuemin><valuemax>100</valuemax>
+                <value>100</value>
+                <keyframe><when>0</when><value>0</value></keyframe>
+                <keyframe><when>8</when><value>100</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+        </track>
+      </video>
+      <audio><track></track></audio>
+    </media>
+  </sequence>
+</xmeml>
