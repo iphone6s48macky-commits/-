@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+<xmeml version="4">
+  <sequence id="seq"><name>fiat500_dashcam_radar</name><duration>510</duration><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+    <media>
+      <video>
+        <format><samplecharacteristics><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate><width>1080</width><height>1920</height>
+          <pixelaspectratio>square</pixelaspectratio><fielddominance>none</fielddominance></samplecharacteristics></format>
+        <track>
+          <clipitem id="plate-1"><name>plate_01_title.png</name><enabled>TRUE</enabled><duration>90</duration><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>0</start><end>90</end><in>0</in><out>90</out>
+            <file id="f-plate-1"><name>plate_01_title.png</name><pathurl>media/plate_01_title.png</pathurl><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Basic Motion</name><effectid>basic</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>scale</parameterid><name>Scale</name><valuemin>0</valuemin><valuemax>1000</valuemax>
+                <value>100.0</value>
+                <keyframe><when>0</when><value>100.0</value></keyframe>
+                <keyframe><when>90</when><value>106.0</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <clipitem id="plate-2"><name>plate_02_products.png</name><enabled>TRUE</enabled><duration>75</duration><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>90</start><end>165</end><in>0</in><out>75</out>
+            <file id="f-plate-2"><name>plate_02_products.png</name><pathurl>media/plate_02_products.png</pathurl><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Basic Motion</name><effectid>basic</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>scale</parameterid><name>Scale</name><valuemin>0</valuemin><valuemax>1000</valuemax>
+                <value>106.0</value>
+                <keyframe><when>0</when><value>106.0</value></keyframe>
+                <keyframe><when>75</when><value>100.0</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <clipitem id="plate-3"><name>plate_03_card.png</name><enabled>TRUE</enabled><duration>90</duration><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>165</start><end>255</end><in>0</in><out>90</out>
+            <file id="f-plate-3"><name>plate_03_card.png</name><pathurl>media/plate_03_card.png</pathurl><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+          </clipitem>
+          <clipitem id="plate-4"><name>plate_04_done.png</name><enabled>TRUE</enabled><duration>90</duration><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>255</start><end>345</end><in>0</in><out>90</out>
+            <file id="f-plate-4"><name>plate_04_done.png</name><pathurl>media/plate_04_done.png</pathurl><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Basic Motion</name><effectid>basic</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>scale</parameterid><name>Scale</name><valuemin>0</valuemin><valuemax>1000</valuemax>
+                <value>100.0</value>
+                <keyframe><when>0</when><value>100.0</value></keyframe>
+                <keyframe><when>90</when><value>106.0</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <clipitem id="plate-5"><name>plate_05_monitor.png</name><enabled>TRUE</enabled><duration>75</duration><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>345</start><end>420</end><in>0</in><out>75</out>
+            <file id="f-plate-5"><name>plate_05_monitor.png</name><pathurl>media/plate_05_monitor.png</pathurl><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+            <filter><effect><name>Basic Motion</name><effectid>basic</effectid>
+              <effectcategory>motion</effectcategory><effecttype>motion</effecttype><mediatype>video</mediatype>
+              <parameter><parameterid>scale</parameterid><name>Scale</name><valuemin>0</valuemin><valuemax>1000</valuemax>
+                <value>100.0</value>
+                <keyframe><when>0</when><value>100.0</value></keyframe>
+                <keyframe><when>75</when><value>108.0</value></keyframe>
+              </parameter></effect></filter>
+          </clipitem>
+          <clipitem id="plate-6"><name>plate_06_end.png</name><enabled>TRUE</enabled><duration>90</duration><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>420</start><end>510</end><in>0</in><out>90</out>
+            <file id="f-plate-6"><name>plate_06_end.png</name><pathurl>media/plate_06_end.png</pathurl><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+          </clipitem>
+        </track>
+        <track>
+          <clipitem id="telop-1"><name>telop_01_title.png</name><enabled>TRUE</enabled><duration>90</duration><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>0</start><end>90</end><in>0</in><out>90</out>
+            <file id="f-telop-1"><name>telop_01_title.png</name><pathurl>media/telop_01_title.png</pathurl><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+          </clipitem>
+          <clipitem id="telop-2"><name>telop_02_products.png</name><enabled>TRUE</enabled><duration>75</duration><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>90</start><end>165</end><in>0</in><out>75</out>
+            <file id="f-telop-2"><name>telop_02_products.png</name><pathurl>media/telop_02_products.png</pathurl><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+          </clipitem>
+          <clipitem id="telop-3"><name>telop_03_card.png</name><enabled>TRUE</enabled><duration>90</duration><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>165</start><end>255</end><in>0</in><out>90</out>
+            <file id="f-telop-3"><name>telop_03_card.png</name><pathurl>media/telop_03_card.png</pathurl><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+          </clipitem>
+          <clipitem id="telop-4"><name>telop_04_done.png</name><enabled>TRUE</enabled><duration>90</duration><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>255</start><end>345</end><in>0</in><out>90</out>
+            <file id="f-telop-4"><name>telop_04_done.png</name><pathurl>media/telop_04_done.png</pathurl><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+          </clipitem>
+          <clipitem id="telop-5"><name>telop_05_monitor.png</name><enabled>TRUE</enabled><duration>75</duration><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>345</start><end>420</end><in>0</in><out>75</out>
+            <file id="f-telop-5"><name>telop_05_monitor.png</name><pathurl>media/telop_05_monitor.png</pathurl><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+          </clipitem>
+          <clipitem id="telop-6"><name>telop_06_end.png</name><enabled>TRUE</enabled><duration>90</duration><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>420</start><end>510</end><in>0</in><out>90</out>
+            <file id="f-telop-6"><name>telop_06_end.png</name><pathurl>media/telop_06_end.png</pathurl><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+              <media><video><samplecharacteristics><width>1080</width><height>1920</height></samplecharacteristics></video></media>
+            </file>
+          </clipitem>
+        </track>
+      </video>
+      <audio>
+        <numOutputChannels>2</numOutputChannels>
+        <format><samplecharacteristics><depth>16</depth><samplerate>48000</samplerate></samplecharacteristics></format>
+        <track>
+          <clipitem id="bgm"><name>bgm.wav</name><enabled>TRUE</enabled><duration>510</duration><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate>
+            <start>0</start><end>510</end><in>0</in><out>510</out>
+            <file id="f-bgm"><name>bgm.wav</name><pathurl>media/bgm.wav</pathurl><rate><timebase>30</timebase><ntsc>FALSE</ntsc></rate><duration>510</duration>
+              <media><audio><samplecharacteristics><depth>16</depth><samplerate>48000</samplerate></samplecharacteristics>
+                <channelcount>2</channelcount></audio></media></file>
+            <sourcetrack><mediatype>audio</mediatype><trackindex>1</trackindex></sourcetrack>
+          </clipitem>
+        </track>
+      </audio>
+    </media>
+  </sequence>
+</xmeml>
